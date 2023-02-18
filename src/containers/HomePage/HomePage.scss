@@ -1,0 +1,197 @@
+.section-share {
+    &.section-specialty {
+        background-color: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor {
+        background-color: #f5f5f5;
+    }
+
+    &.section-about {
+        border-top: 2px solid #f5f5f5;
+        border-bottom: 2px solid #f5f5f5;
+        height: 500px !important;
+    }
+
+    .section-body {
+        .section-customize {
+            cursor: pointer;
+
+            :hover {
+                color: aquamarine;
+            }
+
+            .bg-image {
+                width: 278px;
+                height: 150px;
+                background-color: #fff;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                &.section-specialty {
+                    background-image: url(../../assets/one.png);
+                }
+
+                &.section-medical-facilty {
+                    background-image: url(../../assets/bv1.png);
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url(../../assets/bs1.png);
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handingbook {
+                    background-image: url(../../assets/book1.png);
+                }
+            }
+        }
+    }
+}
+
+
+
+.section-share {
+    height: 330px;
+
+    .section-container {
+        margin: 0px 150px;
+        padding-top: 30px;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+
+            .title-section {
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                float: right;
+                border: none;
+                outline: none;
+                padding: 10px 15px;
+                display: block;
+                background-color: #ebebeb;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+
+
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .section-customize {
+        padding: 5px;
+
+        .customize-boder {
+            border: 1px solid #c1bcbc;
+            width: 270px;
+            padding: 20px;
+
+        }
+    }
+}
+
+//css sclick slider
+.slick-next::before,
+.slick-prev::before {
+    position: absolute !important;
+    margin-top: 4px !important;
+    font-size: 40px !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.slick-prev {
+    left: -20px !important;
+    border: 3px solid gainsboro !important;
+    background: #fff !important;
+    // position: relative;
+    height: 48px !important;
+    width: 44px !important;
+
+    z-index: 100;
+}
+
+.slick-next {
+    right: 10px !important;
+    border: 3px solid gainsboro !important;
+    background: #fff !important;
+    height: 48px !important;
+    width: 44px !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+//css Home-footer
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.section-about {
+    padding: 0 100px;
+
+    .section-about-header {
+        padding: 20px 10px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+            padding-bottom: 10px;
+            margin-top: 10px;
+            text-align: center;
+
+            .content-media {
+                width: 247px;
+                list-style: none;
+                display: block;
+                border-radius: 10px;
+                /* padding-top: 40px; */
+                margin-left: 54px;
+
+                li {
+                    margin: 20px 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

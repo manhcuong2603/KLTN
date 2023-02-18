@@ -1,0 +1,72 @@
+{
+    "homeHeader": {
+        "speaciality": "Medical Speaciality",
+        "searchdoctor": "Find a doctor by Speaciality",
+        "health-facility": "Medical facilities",
+        "select-room": "Choosing a clinic hospital",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Examination package",
+        "check-health": "General physical examination",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "BACKGROUND": "MEDICAL PLATFORM",
+        "HEALTHCARE": "HOLISTIC HEALTHCARE",
+        "Specialist": "Specialist Examination",
+        "Telemedicine": "Telemedicine",
+        "General": "General examination",
+        "Medical": "Medical tests",
+        "Mental": "Mental health",
+        "Dental": "Dental Examination",
+        "Find": "Find a specialist"
+    },
+    "homepage": {
+        "outstanding-doctor": "Featured Doctor Last Week",
+        "popular-specialties": "Popular specialties",
+        "notable-medical-facilities": "Notable medical facilities",
+        "handbook": "HandBook",
+        "media-talk": "Media talk about BookingCare",
+        "more-infor": "More infor"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User System",
+            "manage-doctor": "Manage Doctor",
+            "manage-admin": "Manage Admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage Clinic",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage Specialties",
+            "handbook": "HandBook",
+            "manage-handbook": "Manage HandBook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's schedule"
+        }
+    },
+    "manage-user": {
+        "add": "Add new User",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "FirstName",
+        "last-name": "LastName",
+        "phone": "PhoneNumber",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save User",
+        "edit": "Save Edit User"
+    },
+    "manage-schedule": {
+        "title": "Manage a doctor's examination plan",
+        "choose-doctor": "Choosing a Doctor",
+        "choose-date": "Select Date",
+        "save-schedule": "Save information"
+    }
+}

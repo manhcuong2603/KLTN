@@ -1,0 +1,25 @@
+.preview-img-container {
+    .lable-upload {
+        padding: 5px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .preview-image {
+        border: 1px solid #ddd;
+        height: 150px;
+        width: 50%;
+        background: center center no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+
+.tableUser {
+    margin-bottom: 50px;
+}

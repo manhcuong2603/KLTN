@@ -1,0 +1,69 @@
+.doctor-detail-container {
+    height: 500px;
+
+    .intro-doctor {
+        padding: 10px 80px;
+        display: flex;
+
+        .content-left {
+            border: 1px solid gainsboro;
+            width: 20%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 10px 20px;
+        }
+
+        .content-right {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+
+            .up {
+                padding-top: 15px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .down {
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .schedule-doctor {
+        margin: 0 100px;
+        display: flex;
+        height: 200px;
+        border: 1px solid red;
+
+        .content-left {
+            width: 50%;
+            border: 1px solid black;
+        }
+
+        .content-right {
+            width: 50%;
+            border: 1px solid yellow;
+        }
+    }
+
+    .detail-infor-doctor {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        background-color: #f9f9f9;
+        padding: 10px 100px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .comment-doctor {
+        height: 50px;
+    }
+}
